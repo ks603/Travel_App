@@ -2,12 +2,19 @@
 
 .logo {
   height: 3.25rem;
+  margin-left: 3rem;
 }
 
 // SEARCH
 
 .search {
+  background-color: orangered;
+  flex: 0 0 40%;
   &__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--color-grey-light-2);
   }
 
   &__button {
@@ -22,6 +29,7 @@
 // USER NAVIGATION
 
 .user-nav {
+  background-color: greenyellow;
   &__icon-box {
   }
 
