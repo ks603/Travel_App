@@ -65,7 +65,24 @@
 
 .user-nav {
   background-color: greenyellow;
+  align-self: stretch;
+
+  display: flex;
+  align-items: center;
+
+  & > * {
+    padding: 2rem;
+    cursor: pointer;
+    height: 100%;
+  }
+
+  & > *:hover {
+    background-color: var(--color-grey-light-2);
+  }
+
   &__icon-box {
+    display: flex;
+    align-items: center;
   }
 
   &__icon {
