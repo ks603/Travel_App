@@ -63,8 +63,10 @@
   border-bottom: var(--line);
 
   @media only screen and (max-width: $bp-medium) {
-    justify-content: center;
     padding: 3rem;
+  }
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
   }
 }
 
@@ -78,6 +80,11 @@
   @media only screen and (max-width: $bp-medium) {
     padding: 2rem;
     margin-right: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 
